@@ -1073,7 +1073,7 @@ section,
 }
 .services .service-item {
   background-color: var(--surface-color);
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   height: 100%;
@@ -1088,7 +1088,6 @@ section,
   font-size: 25px;
   color: var(--accent-color);
   display: inline-block;
-  margin-bottom: 15px;
 }
 
 .services .service-item h3 {
