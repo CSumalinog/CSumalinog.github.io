@@ -1,0 +1,6 @@
+{
+    "bladeFormatter.format.noMultipleEmptyLines": true,
+    "bladeFormatter.format.useTabs": true,
+    "notebook.defaultFormatter": null,
+    "bladeFormatter.format.indentInnerHtml": true
+}
