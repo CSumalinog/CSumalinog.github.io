@@ -1056,14 +1056,15 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services {
-  padding: 70px 0;
+  padding: 80px 0;
 }
 .services-img {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 100%;  /* Ensures it adapts to container */
+  height: auto; /* Allows responsiveness */
 }
 
 .services .servies-title {
