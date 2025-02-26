@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #0a0f14; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0f2943; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #532d1c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #0f2943; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,7 +30,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #0a0f14;  /* The default color of the main navmenu links */
-  --nav-hover-color: #532d1c; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #0f2943; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu *//* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -127,19 +127,22 @@ h6 {
 }
 
 .hire-button button {
-  background-color: #532d1c;
+  background-color: #0f2943;
   color: white;
   border: none;
   padding: 10px 15px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 10px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
 }
 
 .hire-button button:hover {
-  background-color: #3e2014;
+  background-color: #092037; /* Slightly darker shade for effect */
+  transform: scale(1.05);
+  transition: background-color 0.3s ease-in-out; /* Keep it consistent */
 }
+
 
 
 .header .header-social-links {
